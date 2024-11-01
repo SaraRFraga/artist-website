@@ -53,6 +53,24 @@ Vue.component('galery-carousel', {
     `,
 });
 
+Vue.component('about-me', {
+    template: `
+        <section id="about" class="whole-about">
+            <div class="about-container">
+                <h2 class="about-title">Sobre Mí</h2>
+                <p class="about-description">
+                    Soy una artista minimalista apasionada por la simplicidad y la expresión a través del color. 
+                    Mi trabajo explora la esencia de las formas y las emociones, buscando transmitir profundidad 
+                    con los elementos más básicos.
+                </p>
+                <p>
+                    Inspirada por la naturaleza y la geometría, mis pinturas invitan al espectador a reflexionar 
+                    y encontrar su propia interpretación en cada pieza.
+                </p>
+            </div>
+        </section>
+    `,
+});
 
 
 
