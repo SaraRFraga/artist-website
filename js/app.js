@@ -72,6 +72,32 @@ Vue.component('about-me', {
     `,
 });
 
+Vue.component('reviews', {
+    template: `
+            <section id="testimonials" class="whole-testimonials">
+                <h2 class="testimonials-title">Opiniones de mis obras...</h2>
+                <div >
+                    <div id="opiniones-index"  class="testimonials-index">
+                        <div class="testimonial-text">
+                            <p class="testimonials-text-description">"El arte de Artist es verdaderamente inspirador. Cada pieza cuenta una historia única."</p>
+                            <p class="testimonial-text-author">- Ana G.</p>
+                        </div>
+                        <div class="testimonial-text">
+                            <p class="testimonials-text-description">"La simplicidad y profundidad de sus obras son cautivadoras. Un talento excepcional."</p>
+                            <p class="testimonial-text-author">- Carlos M.</p>
+                        </div>
+                        <div class="testimonial-text">
+                            <p class="testimonials-text-description>">Artist tiene el don de transmitir emociones complejas a través de formas simples. Impresionante."</p>
+                            <p class="testimonial-text-author">- Laura P.</p>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="testimonial-thanks-letter">... Muchas gracias a todos por compartir sus experiencias.</h2>
+            </section>
+        </main>
+    `,
+});
+
 
 
 new Vue({
