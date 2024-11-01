@@ -31,6 +31,72 @@ Vue.component('header-artist', {
     `,
 });
 
+Vue.component('galery-carousel', {
+    template: `
+        <section id="gallery" class="whole-gallery">
+            <h2 class="gallery-title">Galería</h2>
+            <div class="gallery-slider-container">
+                <div class="slider">
+                    <img src="https://picsum.photos/400/400?random=1" alt="Arte 1" class="slider-image">
+                    <img src="https://picsum.photos/400/400?random=2" alt="Arte 2" class="slider-image">
+                    <img src="https://picsum.photos/400/400?random=3" alt="Arte 3" class="slider-image">
+                    <img src="https://picsum.photos/400/400?random=4" alt="Arte 4" class="slider-image">
+                    <img src="https://picsum.photos/400/400?random=5" alt="Arte 5" class="slider-image">
+                    <img src="https://picsum.photos/400/400?random=6" alt="Arte 6" class="slider-image">
+                    <img src="https://picsum.photos/400/400?random=7" alt="Arte 7" class="slider-image">
+                    <img src="https://picsum.photos/400/400?random=8" alt="Arte 8" class="slider-image">
+                </div>
+                <button class="slider-button prev">&lt;</button>
+                <button class="slider-button next">&gt;</button>
+            </div>
+        </section>
+    `,
+});
+
+Vue.component('about-me', {
+    template: `
+        <section id="about" class="whole-about">
+            <div class="about-container">
+                <h2 class="about-title">Sobre Mí</h2>
+                <p class="about-description">
+                    Soy una artista minimalista apasionada por la simplicidad y la expresión a través del color. 
+                    Mi trabajo explora la esencia de las formas y las emociones, buscando transmitir profundidad 
+                    con los elementos más básicos.
+                </p>
+                <p>
+                    Inspirada por la naturaleza y la geometría, mis pinturas invitan al espectador a reflexionar 
+                    y encontrar su propia interpretación en cada pieza.
+                </p>
+            </div>
+        </section>
+    `,
+});
+
+Vue.component('reviews', {
+    template: `
+            <section id="testimonials" class="whole-testimonials">
+                <h2 class="testimonials-title">Opiniones de mis obras...</h2>
+                <div >
+                    <div id="opiniones-index"  class="testimonials-index">
+                        <div class="testimonial-text">
+                            <p class="testimonials-text-description">"El arte de Artist es verdaderamente inspirador. Cada pieza cuenta una historia única."</p>
+                            <p class="testimonial-text-author">- Ana G.</p>
+                        </div>
+                        <div class="testimonial-text">
+                            <p class="testimonials-text-description">"La simplicidad y profundidad de sus obras son cautivadoras. Un talento excepcional."</p>
+                            <p class="testimonial-text-author">- Carlos M.</p>
+                        </div>
+                        <div class="testimonial-text">
+                            <p class="testimonials-text-description>">Artist tiene el don de transmitir emociones complejas a través de formas simples. Impresionante."</p>
+                            <p class="testimonial-text-author">- Laura P.</p>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="testimonial-thanks-letter">... Muchas gracias a todos por compartir sus experiencias.</h2>
+            </section>
+        </main>
+    `,
+});
 
 
 
