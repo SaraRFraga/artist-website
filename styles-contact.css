@@ -1,0 +1,135 @@
+.contact-section {
+    padding-top: 7.5rem;
+    background-color: #1a202c;
+  }
+  
+  .contact-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .contact-container {
+    max-width: 28rem;
+    margin: 0 auto;
+  }
+  
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-info {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-email {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #9f7aea;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-email:hover {
+    color: #b794f4;
+  }
+  
+  .contact-phone {
+    font-size: 1.25rem;
+    color: #ffffff;
+  }
+  
+  .contact-instagram {
+    color: #ffffff;
+    transition: color 0.3s ease;
+    margin-top: 1rem;
+  }
+  
+  .contact-instagram:hover {
+    color: #9f7aea;
+  }
+  
+  .instagram-icon {
+    width: 48px;
+    height: 48px;
+  }
+  
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+    
+ 
+  }
+
+  .contact-info {
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-info{
+    list-style-type:none;
+    padding: 0;
+  }
+
+  .contact-info li {
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+    position: relative; /* Necesario para posicionar la imagen */
+    padding-left: 40px; /* Espacio para la imagen */
+  }
+
+
+.contact-info li.mail,
+.contact-info li.whatsapp,
+.contact-info li.instagram {
+  padding-left: 40px; /* Espacio para la imagen */
+  background-size: 20px 20px; /* Ajusta el tamaño de la imagen */
+  background-repeat: no-repeat; /* No repetir la imagen */
+  background-position: left center; /* Posiciona la imagen a la izquierda */
+  margin: 10px 0; /* Espacio entre los elementos de la lista */
+}
+
+.contact-info li.instagram {
+  background-image: url('img/instagram_socialnetwork_20033.png'); /* Cambia esta ruta por la de tu imagen */
+
+}
+
+.contact-info li.whatsapp {
+  background-image: url('img/3721678-whatsapp_108065.png'); /* Cambia esta ruta por la de tu imagen */
+
+}
+
+.contact-info li.mail {
+  background-image: url('img/Email_30017.png'); /* Cambia esta ruta por la de tu imagen */
+
+}
+
+
