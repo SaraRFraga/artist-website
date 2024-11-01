@@ -10,7 +10,7 @@
 </head>
 <body>
     <div id="app">
-            <header-artist></header-artist>
+            <reviews></reviews>
             <hola-mundo mensaje="hola equipo"></hola-mundo>
     </div>
 </body>

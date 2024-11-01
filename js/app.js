@@ -31,6 +31,21 @@ Vue.component('header-artist', {
     `,
 });
 
+Vue.component('hero-section', {
+    template: `
+        <section id="home" class="whole-banner">
+            <div class="banner-first-container">
+                <div id="hero-letters" class="banner-second-container">
+                    <div id="heroText" class="banner-text">
+                        <h2 id="hero-title" class="banner-title">Arte Conceptual</h2>
+                        <p class="banner-description">Explorando la esencia a través del color y la forma</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    `,
+});
+
 Vue.component('galery-carousel', {
     template: `
         <section id="gallery" class="whole-gallery">
@@ -76,7 +91,7 @@ Vue.component('reviews', {
     template: `
             <section id="testimonials" class="whole-testimonials">
                 <h2 class="testimonials-title">Opiniones de mis obras...</h2>
-                <div >
+                <div>
                     <div id="opiniones-index"  class="testimonials-index">
                         <div class="testimonial-text">
                             <p class="testimonials-text-description">"El arte de Artist es verdaderamente inspirador. Cada pieza cuenta una historia única."</p>
@@ -98,7 +113,20 @@ Vue.component('reviews', {
     `,
 });
 
-
+Vue.component('footer-info', {
+    template: `
+        <footer class="footer-contact">
+            <p>&copy; 2023 Artist Art. Todos los derechos reservados.
+                <a class="contact-footer" href="https://www.instagram.com/artistart" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a class="contact-footer" href="https://www.facebook.com/artistart" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </p>
+        </footer>
+    `,
+});
 
 new Vue({
     el: '#app'
